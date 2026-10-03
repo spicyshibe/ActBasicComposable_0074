@@ -81,9 +81,15 @@ fun tugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Cyan
             )
+            Spacer(modifier = Modifier.height(height = 4.dp))
+            Text(
+                text = "Rafie Rasydan Wahyudi",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Cyan
+            )
 
         }
-
 
     }
 }
