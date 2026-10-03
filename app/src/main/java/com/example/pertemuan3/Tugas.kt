@@ -8,4 +8,5 @@ import androidx.compose.ui.res.painterResource
 @Composable
 fun tugasLogin(modifier: Modifier = Modifier) {
     val backgroundImg = painterResource(id = R.drawable.bg)
+    val myminegwe = painterResource(id = R.drawable.logomymine)
 }
