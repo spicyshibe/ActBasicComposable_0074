@@ -28,6 +28,12 @@ fun tugasLogin(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
+        Image(
+            painter = backgroundImg,
+            contentDescription = "foto_bg",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
 
     }
 }
