@@ -97,7 +97,13 @@ fun tugasLogin(modifier: Modifier = Modifier) {
             )
 
         }
-
+        Box(
+            modifier = Modifier
+                .size(180.dp)
+                .clip(CircleShape)
+                .background(Color.White),
+            contentAlignment = Alignment.Center
+        ) { }
 
     }
 }
