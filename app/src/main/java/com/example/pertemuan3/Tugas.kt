@@ -111,6 +111,5 @@ fun tugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
         }
-
     }
 }
