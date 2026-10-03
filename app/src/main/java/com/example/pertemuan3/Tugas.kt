@@ -88,8 +88,16 @@ fun tugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Cyan
             )
+            Spacer(modifier = Modifier.height(height = 4.dp))
+            Text(
+                text = "20240140074",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Cyan
+            )
 
         }
+
 
     }
 }
