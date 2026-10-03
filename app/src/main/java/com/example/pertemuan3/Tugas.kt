@@ -103,7 +103,14 @@ fun tugasLogin(modifier: Modifier = Modifier) {
                 .clip(CircleShape)
                 .background(Color.White),
             contentAlignment = Alignment.Center
-        ) { }
+        ) {
+            Image(
+                painter = fotobulat,
+                contentDescription = "foto",
+                modifier = Modifier.size(180.dp),
+                contentScale = ContentScale.Crop
+            )
+        }
 
     }
 }
