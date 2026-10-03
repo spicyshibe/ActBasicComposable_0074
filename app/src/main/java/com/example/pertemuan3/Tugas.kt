@@ -35,5 +35,17 @@ fun tugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(
+                text = "Login"
+                fontSize = 32.sp,
+            )
+        }
     }
 }
