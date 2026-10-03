@@ -9,4 +9,5 @@ import androidx.compose.ui.res.painterResource
 fun tugasLogin(modifier: Modifier = Modifier) {
     val backgroundImg = painterResource(id = R.drawable.bg)
     val mylogo = painterResource(id = R.drawable.logomymine)
+    val fotobulat = painterResource(id = R.drawable.fotobulat)
 }
